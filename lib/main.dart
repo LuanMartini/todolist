@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'views/pages/LoginPage.dart';
+import 'views/pages/RegisterPage.dart';
 
 
 
@@ -13,10 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/',
+      home: Registerpage(),
       routes: {
-        '/': (context) => const TelaLogin(),
-
+        '/Login': (context) => const TelaLogin(),
       },
     );
   }
