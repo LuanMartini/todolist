@@ -14,10 +14,10 @@ class Dashboardpage extends StatelessWidget{
         padding: const EdgeInsets.all(16),
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, // 2 quadrados por linha
+            crossAxisCount: 2,
             crossAxisSpacing: 12,
             mainAxisSpacing: 12,
-            childAspectRatio: 1, // quadrado perfeito
+            childAspectRatio: 1, 
           ),
         itemCount: 6,
         itemBuilder: (context, index) {
