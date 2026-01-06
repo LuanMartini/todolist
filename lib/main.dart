@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todolist/views/pages/DashboardPage.dart';
 import 'views/pages/LoginPage.dart';
 import 'views/pages/RegisterPage.dart';
 
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       home: Registerpage(),
       routes: {
         '/Login': (context) => const TelaLogin(),
+        '/Dashboard': (context) => const Dashboardpage(),
       },
     );
   }

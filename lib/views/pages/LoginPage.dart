@@ -43,7 +43,7 @@ class TelaLogin extends StatelessWidget {
             SizedBox(height: 16),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, '');
+                Navigator.pushNamed(context, '/Dashboard');
               },
               child: const Text('Entrar'),
             ),
